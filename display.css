@@ -1,0 +1,30 @@
+h1{
+    display: inline;
+}
+span{
+    display: block;
+}
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    border: 2px solid black;
+    margin: 2px ;
+    display: inline-block;
+}
+#lastb{
+    display: none;
+} */
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: 1em;
+    font-size: 3em;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 2em;
+}

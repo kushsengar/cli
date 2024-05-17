@@ -1,0 +1,19 @@
+#container1{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 3px solid cornflowerblue;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: Georgia;
+    display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+#container1 div{
+    height: 50px;
+    width: 80px;
+    margin-left: 5px;
+    line-height: 50px;
+
+}

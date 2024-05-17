@@ -1,0 +1,55 @@
+#a1{
+    height: 100px;
+    width: 400px;
+    background-color: #ffe4c4;
+    animation-name: mya2;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction:normal;
+}
+@keyframes mya1 {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+        font-family: Georgia;
+    }
+    
+}
+@keyframes mya2 {
+    from{
+        background-color: aquamarine;
+    }to{
+        background-color: chartreuse;
+    }
+}
+#a1:hover{
+    translate: 1000px;
+    transition-duration: 4s;
+    rotate: -37deg;
+    scale: 0.6;
+}
+#fw{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+}
+#fw:hover{
+    translate: 1000px;
+    transition-duration: 4s;
+    rotate: -37deg;
+    scale: 0.6;
+}
+#bw{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
